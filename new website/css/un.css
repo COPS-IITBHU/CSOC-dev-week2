@@ -1,0 +1,36 @@
+}
+#envelope{
+	margin-left: 508px;
+}
+.no{
+	display: inline-block;
+}
+.no li{
+	display: inline-block;
+	margin-left: 12PX;
+	font-size: 42PX;
+	word-spacing: 10px;
+	color: #e67606;
+
+}
+.em{
+	display: inline-table;
+}
+.em li{
+	display: inline-block;
+	margin-left: 12PX;
+	font-size: 42PX;
+	font-style: none;
+	color: #e67606;
+
+}
+.fit{
+    color: red;
+}.bt{
+	visibility: hidden;
+	background-color: #fe831b;
+	height: 100px;
+	max-width: auto;
+	border-top: #00798f 3px solid;
+	margin-bottom: 0px;
+}

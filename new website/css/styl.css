@@ -1,0 +1,29 @@
+ul li .drop-menu{
+	list-style: none;
+	float: left;
+	display: block;
+	text-align: center;
+}
+
+ul li{
+	list-style: none;
+	float: left;
+	display: block;
+	text-align: center;
+	width: 170px;
+}
+ul.drop-menu li{
+	list-style: none;
+	display: none ;
+	float: left;
+}
+ul li:hover .drop-menu li{
+	display: block;
+	float: left;
+}
+
+	.row{
+	background-color: #fff;
+	height: 50px;
+	max-width: auto;
+    float: top;
