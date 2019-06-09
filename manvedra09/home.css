@@ -1,0 +1,113 @@
+* {
+	padding: 0;
+	margin: 0;
+
+}
+
+body {
+
+}
+
+#load {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background:#fff url('img/load.gif') no-repeat center;
+	z-index: 99999;
+	animation: 2s;
+}
+
+#lgo {
+	height: 140px;
+	width: 140px;
+	position: absolute;
+	top: 10px;
+}
+#jumbo {
+	background-color: blue;
+	height: 20%;
+}
+#login {
+	float: right;
+
+}
+#kart {
+float: right;
+font-family: cursive;
+font-weight: bold;
+position: relative;
+bottom: 40px;
+left: 5cm;
+font-style: italic;
+float: fixed;
+
+
+}
+
+#k
+{
+	background-color: pink;
+	color: black;
+}
+
+#explo {
+	float: right;
+	color: red;
+}
+ #top {
+	color: black;
+	
+}
+
+.slide1{
+	background-image: url('img/books.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slide2{
+	background-image: url('img/elec.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slide3{
+	background-image: url('img/sports.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+h1 {
+	color: yellow;
+}
+
+#bottom {
+	background-color: black;
+	text-align: center;
+
+
+}
+p {
+	color: white;
+}
+h1 {
+	color: yellow;
+	font-family: cursive;
+	text-align: center;
+   float: fixed;
+   position: relative;
+}
+
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+#list {
+	display: inline-block;
+}
