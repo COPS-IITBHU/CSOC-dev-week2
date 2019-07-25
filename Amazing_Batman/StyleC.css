@@ -1,0 +1,32 @@
+.background-image{
+	background-image: url("img/background2.jpg");
+	margin-top: opx;
+	height: 700px;
+	padding: 100px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#content{
+	background-color: rgba(0,0,0,0.7);
+	margin: 50px;
+	padding: 25px;
+	color: yellow;
+	max-width: 500px;
+	margin-bottom: 25px;
+
+}
+h3,h4{
+	background-color: yellow;
+}
+.ba{
+	background-color: orange;
+
+}
+h2{
+	background-color: black;
+	color: red;
+}
+.back{
+	background-color: yellow;
+}
