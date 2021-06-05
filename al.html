@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+   <html lang="en">
+<head>
+
+    <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <style>
+
+
+  div.c {
+    font-size: 20px;
+    color: green;
+  border: 3px solid grey;
+  padding: 5px;
+}
+  .img-container {
+  float: left;
+  width: 31.33%;
+  padding: 5px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+div.fixed {
+  background-color:lightblue; 
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+  width: 500px;
+  border: 4px solid orange;
+  color: red;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0px;
+  background-color: #cae8ca;
+ 
+}
+.img2 {
+  float: right;
+}
+p{
+  font-style: italic;
+  font-size: 20px;
+  colr:green;
+}
+
+ #borderimg1 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(https://cdn.pixabay.com/photo/2016/10/24/22/46/valentine-1767544_960_720.png) 50 round;
+} 
+
+.clearfix {
+
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+
+  clear: both;
+  display: table;
+}
+    table,th,td{
+      border: 1px solid black;
+      border-collapse: collapse;
+      color: black;
+      padding: 10px;
+      width:40%;
+      font-size: 20px;
+  
+  }
+  a:hover{
+    background-color: yellow;
+  }
+div.ani {
+  width: 110px;
+  height: 40px;
+  padding-top: 3px;
+  color: black;
+  font-size: 20px;
+  background-color: grey;
+  font-weight: italic;
+  text-align: center;
+  position: relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+#div1 {-webkit-animation-timing-function: linear;}
+#div2 {-webkit-animation-timing-function: ease;}
+#div3 {-webkit-animation-timing-function: ease-in;}
+#div4 {-webkit-animation-timing-function: ease-out;}
+#div5 {-webkit-animation-timing-function: ease-in-out;}
+
+/* Standard syntax */
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 50px;}
+  to {left: 800px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  from {left: 50px;}
+  to {left: 800px;}
+}
+img{
+  border: dotted;
+}
+a{
+  color:red;
+  
+  font-weight: bold;
+}
+
+caption{
+  font-size: 30px;
+  color:red;
+}
+
+image{
+  height:200px;
+  width: 200px;
+}
+p
+{
+font-size: 25px;
+color: blue;
+}
+
+
+    </style>
+    </head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <body style="background-image:url('https://images.pexels.com/photos/1020317/pexels-photo-1020317.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940');">
+     
+     <div class="container">
+  <h1>Wanna Ask!</h1>
+ 
+  <form>
+    <div class="input-group input-group-lg">
+      <input type="text" class="form-control" placeholder="Search">
+      <div class="input-group-btn">
+        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+  </form>
+  <br>
+
+        
+      <h1 style="text-align: center;">Travel the World</h1>
+
+      <div class="sticky">
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="al.html">travel_WORLD</a>
+    </div>
+    <span class='login-button'>Login</span>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="al.html">Home</a></li>
+      <li><a href="dubai.html">Dubai</a></li>
+      <li><a href="india.html">India</a></li>
+      <li><a href="singapore.html">Singapore</a></li>
+    
+        <li><a href="#">Special offers</a></li>
+         <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+  
+</div>
+    
+
+       
+        <div class="fixed">This site is developed by Aditya Kumar Singh</div>
+        <p style="font-family:courier; color:red; font-size: 35px;">Travelling is an adventurous journey of life! </p>
+
+
+        <h1 style="color: red" >1. Traveling Improves Your Health</h1>
+          
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active image">
+        <img src="https://s3.amazonaws.com/zenplannerwordpress-stack0/wp-content/uploads/sites/394/2019/01/09141918/Health-Is-Wealth-10-Simple-Tips-To-Stay-Healthy.jpg" style="width:100%; height:500px">
+      </div>
+
+      <div class="item" >
+        <img src="http://flhealthinnovation.org/wp-content/uploads/2014/12/HEALTH-sign.jpg" style="width:100%; height:500px">
+       
+      </div>
+    
+      <div class="item">
+        <img src="https://eurama.hu/wp-content/uploads/2017/02/5825413134_ba0b2179e5_b-600x374.jpg" alt="New york" style="width:100%; height:500px">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+        <p >
+From cutting down on stress, to lowering your chances of developing a heart disease, the health benefits of traveling are huge. You may stay sitting on a chair all day long at the workplace: including some walking to your trip is sure to make your body feel better. For some people, wandering abroad is even a cure for depression and anxiety. Of course, it's not a foolproof cure, but it might help you feel better, both physically and psychologically.
+
+Traveling more is likely to have a tremendous impact on your mental well-being, especially if you're no used to going out of your comfort zone. Trust me: travel more and your doctor will be happy. Be sure to get in touch with your physician, they might recommend some medication to accompany you in your travels, especially if you're heading to regions of the globe with potentially dangerous diseases.</p>
+      
+       <h1 style="color:red;">2. Benefits of travelling – It provides you with unforgettable moments and experiences</h1>
+
+                
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active image">
+        <img src="http://www.diegomallien.com/wp-content/uploads/2017/03/Meaning-of-travelling.jpg" alt="Los Angeles" style="width:100%; height:500px">
+      </div>
+
+      <div class="item" >
+        <img src="https://www.thegryphon.co.uk/wp-content/uploads/2017/12/travelling-this-summer-l.jpg" style="width:100%; height:500px">
+      </div>
+    
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" style="width:100%; height:500px">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+  <p>  
+Some of my most cherished memories are from the times when I was travelling. If you travel, you can experience things that you could never experience at home. You may see beautiful places and landscapes that do not exist where you live. You may meet people that will change your life, and your thingking. You may try activities that you have never tried before.</p>
+<h1 style="color:red;">3. Benefits of travelling – It improves your language skills</h1>
+               
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active image">
+        <img src="https://images.unsplash.com/photo-1516571934337-d366d0c75b89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="width:100%; height:500px">
+      </div>
+
+      <div class="item" >
+        <img src="https://images.unsplash.com/photo-1520361633379-b84324c5b73d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="width:100%; height:500px">
+      </div>
+    
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1494744141685-2f61f7af7ed2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" style="width:100%; height:500px">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+  <p>  
+Even if you go to a country where they speak the same language as you, you may still learn some new words and expressions that are only used there. If you go to a country where they speak a different language, you will learn even more.After arriving home from a long journey, a lot of travellers experience that they are much more motivated than they were before they left. During your trip you may learn things that you will want to try at home as well. You may want to test your new skills and knowledge. Your experiences will give you a lot of energy.</p>
+
+<h1 style="color:red;">4. Benefits of travelling – It teaches you about the world, homeland and yourself.</h1>
+                
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active image">
+        <img src="https://images.unsplash.com/photo-1501621965065-c6e1cf6b53e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="width:100%; height:500px">
+      </div>
+
+      <div class="item" >
+        <img src="https://images.unsplash.com/photo-1500154040473-d91a2e21a6ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" style="width:100%; height:500px">
+      </div>
+    
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1551835774-ab1344cb340d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" style="width:100%; height:500px">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+  <p>  “The world is a book, and those who do not travel read only a page.” – said Saint Augustine. Travelling can teach you more than any university course. You learn about the culture of the country you visit. If you talk to locals, you will likely learn about their thinking, habits, traditions and history as well.If you travel, you will not only learn about foreign cultures, but about your own as well. You will notice the cultural differences, and will find out what makes your culture unique. After retrurning from a long journey, you will see your country with new eyes.
+</p>
+        <h1 style=" color:red"> Click the button below to go to travelling site</h1>
+          <div class="btn-group">
+            <a href="https://www.makemytrip.com">
+          <button type="button" class="btn btn-primary "  >Tr@vel</button>
+          </a>
+        </div>
+          
+       <div class="clearfix c">
+  <img class="img2 " src="https://peopledotcom.files.wordpress.com/2018/10/gisele-bunchen-2.jpg?w=768" alt="family tour" width="170" height="170" >
+  <p id ="borderimg1" style="font-size: 40px " >
+  Travelling with family on various good places has always been very joyful for all.</p>
+</div>
+<div class="ani" id="div2">Travelling</div>
+<div class="ani" id="div4">makes</div>
+<div class="ani" id="div1">your</div>
+<div class="ani" id="div5">life</div>
+<div class="ani" id="div3">adventurous</div>
+
+      
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>          
+       
+      </body>
+     
+  </html>
