@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>This is the beggining of a new era</title>
+  <link href="external.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bodyStyle"  id="bodyStyle">
+  <ul id ="menu">
+    <li><a class="active" href="home.htm" target="main">Home</a></li>
+    <li><a target="main" href="events.htm">Events</a></li>
+    <li><a target="main" href="contact.htm">Contact</a></li>
+    <li><a target="main" href="about.htm">About</a></li>
+  </ul>
+
+  <iframe class="mainContent" name="main" src="home.htm" allowtransparency="true"></iframe>
+
+  <button class="button" onclick="counting()"><span>Wanna change?</span></button>
+  <script type="text/javascript">
+  var count=0;
+  var myVar;
+  function counting(){
+    count++;
+    myPress(count);
+  }
+
+  function myPress(count){
+    var k=document.getElementById('bodyStyle');
+    if(count>100000) count=0;
+    if(count%4==1){
+    k.style.backgroundImage="url('background2.jpg')";
+  }
+    if(count%4==2){
+      k.style.backgroundImage="url('background3.jpg')";
+    }
+    if(count%4==3){
+      k.style.backgroundImage="url('background4.jpg')";
+    }
+    if(count%4==0){
+
+    k.style.backgroundImage="url('background.jpg')";
+    }
+  }
+
+  function myTimer(){
+    count++;
+    myPress(count);
+  }
+  function setVar(){
+    myVar=setInterval(myTimer,2000);
+  }
+
+  </script>
+
+
+    <div><br><br><br><h1>OR</h1><br><br><br></div>
+
+
+
+
+
+    <button class="button" onclick="setVar()" target="main"><span>Set Random</span></button>
+    <button class="button0" onclick="clearInterval(myVar)">Stop Changing</button>
+
+
+
+</body>
+</html>
